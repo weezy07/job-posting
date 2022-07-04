@@ -1,0 +1,14 @@
+.whyUs-headline {
+    font-weight: 500;
+}
+.feature-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.feature-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 53%;
+    line-height: 25px;
+}

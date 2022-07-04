@@ -1,0 +1,88 @@
+.homeDiv {
+    display: inline-flex;
+}
+.goHome {
+    color: #fff;
+    font-size: 11px;
+}
+.homeIcon {
+    width: 12px;
+    margin: 0 7px 4px 0;
+}
+.jobHeading {
+    color: #fff;
+    font-size: 1.3rem;
+}
+.post-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+}
+.jobPostCard {
+    padding: 10px 15px;
+    background: #fff;
+    box-shadow: 0px 3px 6px #557da526;
+    border-radius: 5px;
+}
+.post-title {
+    font-size: 1rem;
+    font-weight: 500;
+    width: 50%;
+    line-height: 25px;
+    margin: 0;
+}
+.location-div {
+    display: flex;
+    flex: 1;
+    margin: 0;
+    font-size: 12px;
+    display: block;
+    align-self: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.location-icon {
+    margin-right: 5px;
+}
+.cta-viewApplications {
+    flex: 1;
+    padding: 5px 3px!important;
+    background-color: #43AFFF33!important;
+    border-radius: 5px;
+    border: 1px solid #43AFFF33!important;
+    color: #303F60!important;
+    font-size: 11px!important;
+}
+.cta-viewApplications:focus {
+    outline: 0;
+}
+.pagination-div {
+    display: flex;
+    justify-content: center;
+}
+.pagination-div img{
+    cursor: pointer;
+}
+.currentPageCounter {
+    align-self: center;
+    padding: 0 10px;
+}
+.noPostDiv{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.noPostParent {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.noPostIcon {
+    width: 60px;
+}
+.noPostText {
+    font-size: 14px;
+}

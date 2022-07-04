@@ -1,0 +1,28 @@
+.top-header {
+    margin: 0 5%;
+    padding: 1% 0;
+    border-bottom: 1px solid #fff;
+}
+.brand-logo {
+    width: 82px;
+    height: 38px;
+}
+.cta-login {
+    background-color: #43AFFF33!important;
+    border: 1px solid #43AFFF !important;
+    border-radius: 5px;
+    color: #fff !important;
+    padding: 8px 20px !important;
+    font-size: 0.8rem !important;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.userName {
+    display: flex!important;
+    background-color: transparent !important;
+    border-color: transparent!important;
+}
+.userName:focus {
+    box-shadow: none!important;
+    outline: none !important
+}

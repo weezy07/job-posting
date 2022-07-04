@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #EDF6FF 0% 0% no-repeat padding-box;
+}
+.toast {
+    border: none!important;
+    background-color: #fff!important;
+}
+.toast-header {
+    justify-content: space-between!important;
+}
+.modal-body {
+    padding: 0 1rem 1rem 1rem!important;
+}
+.container {
+    padding: 0 5%!important;
+}
+.no-mg {
+    margin: 0;
+}
+.no-pad {
+    padding: 0;
+}
+.mg-vertical10 {
+    margin: 10px 0;
+}
+.mg-vertical20 {
+    margin: 20px 0;
+}
+.mg-vertical30 {
+    margin: 30px 0;
+}
+.mg-top10 {
+    margin-top: 10px;
+}
+.mg-top20 {
+    margin-top: 20px;
+}
+.mg-top30 {
+    margin-top: 30px;
+}
+.mg-top70 {
+    margin-top: 70px;
+}
+.mg-bottom5 {
+    margin-bottom: 5px;
+}
+.mg-bottom10 {
+    margin-bottom: 10px;
+}
+.mg-bottom20 {
+    margin-bottom: 20px;
+}
+.mg-bottom30 {
+    margin-bottom: 30px;
+}
+.pad-vertical10 {
+    padding: 10px 0;
+}
+.pad-vertical30 {
+    padding: 30px 0;
+}
+.pad-vertical40 {
+    padding: 40px 0;
+}
+.pad-top10 {
+    padding-top: 10px;
+}
+.pad-top20 {
+    padding-top: 20px;
+}
+.pad-top30 {
+    padding-top: 30px;
+}
+.pad-top40 {
+    padding-top: 40px;
+}
+.pad-bottom10 {
+    padding-bottom: 10px;
+}
+.pad-bottom20 {
+    padding-bottom: 20px;
+}
+.pad-bottom30 {
+    padding-bottom: 30px;
+}
+.primary-color {
+    color: #43afff;
+}
+.flex-spaceBet {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-spaceEven {
+    display: flex;
+    justify-content: space-evenly;
+}
+.text-center {
+    text-align: center;
+}
+.homePageSectionHeading {
+    font-size: 1.5rem!important;
+    color: #303F60!important;
+}
+.primary-cta {
+    border: 1px solid #43afff !important;
+    background: #43afff !important;
+    padding: 5px 30px!important;
+    color: #fff !important;
+    border-radius: 5px;
+}
+.card-item {
+    padding: 10px 15px;
+    background: #fff;
+    box-shadow: 0px 3px 6px #557da526;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+.card-grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.card-grid4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+a {
+    text-decoration: none!important;
+}
+.toast-container {
+    z-index: 100!important;
+}
+.btn:focus,.btn:active:focus,.btn.active:focus,
+.btn.focus,.btn:active.focus,.btn.active.focus {
+    box-shadow: none!important;
+    outline: none!important;
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.55em;
+    vertical-align: 0.255em;
+    position: relative!important;
+    top: 16px!important;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+.upper-div {
+    height: 430px;
+    background: transparent linear-gradient(248deg, #303F60 0%, #1A253C 100%) 0% 0% no-repeat padding-box;
+}
+.upper-div-login {
+    height: 310px;
+    background: transparent linear-gradient(248deg, #303F60 0%, #1A253C 100%) 0% 0% no-repeat padding-box;
+}
+.upper-div-posting {
+    height: 210px;
+    background: transparent linear-gradient(248deg, #303F60 0%, #1A253C 100%) 0% 0% no-repeat padding-box;
+}
+.componentPosition {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.form-label {
+    font-size: 0.8rem!important;
+    color: #303F60!important;
+}
+.form-control {
+    color: #303F60!important;
+}
+.jobTitle {
+    font-size: 1rem;
+    color: #303F60;
+}
+.opacity8 {
+    opacity: 0.8;
+}

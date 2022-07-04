@@ -1,0 +1,21 @@
+.login-card-item {
+    padding: 10px 15px;
+    background: #fff;
+    box-shadow: 0px 30px 36px #557DA526;
+    border-radius: 20px;
+}
+.loginForm {
+    width: 50%;
+    margin: auto;
+}
+.form-control.is-valid, .was-validated .form-control:valid, .form-control.is-invalid, .was-validated .form-control:invalid {
+    background-image: none!important;
+}
+.errorBorder {
+    border: 1px solid #FF0000!important;
+}
+.errorMessage {
+    color: #FF0000;
+    font-size: 10px;
+    text-align: end;
+}

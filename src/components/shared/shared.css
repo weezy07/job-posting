@@ -1,0 +1,48 @@
+.candCard {
+    margin: 5px;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #303F6080;
+    border-radius: 5px;
+}
+.applicant-div {
+    background: #EFEFEF;
+    position: relative;
+    height: 70vh;
+    overflow: auto;
+    border-radius: 5px;
+    z-index: 0;
+}
+.candidateInitial {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #303F60;
+    text-align: center;
+    background: #D9EFFF;
+}
+.candProfile {
+    flex: 1;
+}
+.candDetails {
+    flex: 2;
+    align-self: center;
+}
+.candName {
+    font-size: 11px;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.candEmail {
+    font-size: 9px;
+    color: #303F60;
+    opacity: 0.8;
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
