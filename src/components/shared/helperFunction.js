@@ -2,11 +2,7 @@ import { auth_token_key } from "./constants";
 
 // helper function used to set data to localStorage
 export const setStorageData = (key, value) => {
-    console.log('in set')
     localStorage.setItem(key, JSON.stringify(value));
-    // new Promise((resolve, reject) => {
-    //     resolve();
-    // })
 }
 
 // helper function used to get data from localStorage

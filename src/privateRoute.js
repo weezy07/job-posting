@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Redirect } from "react-router-dom";
 import {isAuthenticated} from "./components/shared/helperFunction";
 
-
+// component used ofr making private route on the basis of authentication
 const PrivateRoute = ({ component: Component, ...rest }) => (
 	<Route
 		{...rest}

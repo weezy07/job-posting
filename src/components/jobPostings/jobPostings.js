@@ -32,14 +32,11 @@ const JobPostings = (props) => {
 	};
 
 	const getJobsList = () => {
-		console.log('list jobs')
 		listJobs(user.token, currentPage).then((response) => {
 			if (response.ok) {
 				setPostings(response.data.data);
 				let tempCount = Math.ceil(response.data.metadata.count / response.data.metadata.limit);
 				setTotalPageCount(tempCount);
-			} else {
-				console.log("failure", response);
 			}
 		});
 	}

@@ -30,7 +30,6 @@ const Login = () => {
 	// handler to submit the form
 	const handleSubmit =  (event) => {
 		event.preventDefault();
-		const form = event.currentTarget;
 
 		if(email && password) {
 			getAuthenticated(formValues).then((response) => {
@@ -42,22 +41,12 @@ const Login = () => {
 						userRole: response.data.userRole,
 						token: response.data.token,
 					};
-					console.log('before set')
 					setStorageData(auth_token_key, authObj);
-					console.log('after set');
 					history.push({
 						pathname: `/jobs-listing`,
 						showToast: true,
 					});
-					// setTimeout(() =>{
-					// 	history.push({
-					// 		pathname: `/jobs-listing`,
-					// 		showToast: true
-					// 	});
-					// }, 200)
-					console.log("after history");
 				} else {
-					console.log("failure", response, form.checkValidity());
 					setHasError(true);
 					setValidated(false);
 				}

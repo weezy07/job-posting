@@ -18,8 +18,6 @@ const ApplicantsModal = ({ showModal, handleClose, postingId }) => {
 			if (response.ok) {
 				setJobDetails(response.data);
 				setCount(response.data.length);
-			} else {
-				console.log("failure", response);
 			}
 		});
 	}, [postingId]);

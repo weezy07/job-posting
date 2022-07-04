@@ -13,9 +13,6 @@ const Routes = () => {
 					<Route path="/" exact component={Home} />
 					<Route path="/login" exact component={Login} />
 					<PrivateRoute path="/jobs-listing" exact component={JobPostings} />
-					{/* <Route path="/jobs-listing" exact component={JobPostings}>
-						{isAuthenticated() ? <JobPostings /> : <Redirect to="/login"></Redirect>}
-					</Route> */}
 				</Switch>
 			</BrowserRouter>
 		</>
